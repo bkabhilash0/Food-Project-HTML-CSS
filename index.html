@@ -4,82 +4,249 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="./fonts/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Project</title>
   </head>
+
   <body>
-    <header>
-      <div class="header__image">
-        <img src="./Images/Layer 510.png" alt="Image" />
-      </div>
-      <div class="contact">
-        <div class="contact__icons">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-instagram"></i>
+    <div class="main__contents">
+      <header>
+        <div class="header__image">
+          <img src="./Images/Layer 510.png" alt="Image" />
         </div>
-        <div class="contact__details">
-          <i class="far fa-envelope"></i><span>example@example.com</span>
-          <i class="fas fa-phone"></i><span>1234567890</span>
-          <a href="">Login/Register</a>
+        <div class="contact">
+          <div class="contact__icons">
+            <i class="fab fa-viber"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-skype"></i>
+          </div>
+          <div class="contact__details">
+            <i class="far fa-envelope"></i><span>example@example.com</span>
+            <i class="fas fa-phone"></i><span>1234567890</span>
+            <a href="">Login/Register</a>
+          </div>
         </div>
-      </div>
-      <nav class="nav">
-        <div class="nav__logo">
-          <img src="./Images/logo.png" alt="Logo" class="logo" />
+        <nav class="nav">
+          <div class="nav__logo">
+            <img src="./Images/logo.png" alt="Logo" class="logo" />
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__items">
+              <li class="nav__item"><a href="/">Home</a></li>
+              <li class="nav__item">
+                <a href="/">Rooms</a><i class="fas fa-caret-down"></i>
+              </li>
+              <li class="nav__item">
+                <a href="/">Gallery</a><i class="fas fa-caret-down"></i>
+              </li>
+              <li class="nav__item">
+                <a href="/">Events</a><i class="fas fa-caret-down"></i>
+              </li>
+              <li class="nav__item"><a href="/">About</a></li>
+              <li class="nav__item"><a href="/">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="hero">
+          <h2 class="hero__slogan">Short info about us</h2>
+          <h1 class="hero__title">Get in touch with us</h1>
         </div>
-        <div class="nav__menu">
-          <ul class="nav__items">
-            <li class="nav__item"><a href="/">Home</a></li>
-            <li class="nav__item">
-              <a href="/">Rooms</a><i class="fas fa-caret-down"></i>
-            </li>
-            <li class="nav__item">
-              <a href="/">Gallery</a><i class="fas fa-caret-down"></i>
-            </li>
-            <li class="nav__item">
-              <a href="/">Events</a><i class="fas fa-caret-down"></i>
-            </li>
-            <li class="nav__item"><a href="/">About</a></li>
-            <li class="nav__item"><a href="/">Contact</a></li>
-          </ul>
+        <div class="header__button">
+          <a href="#">Home &gt; Blogs</a>
         </div>
-      </nav>
-      <div class="hero">
-        <h2 class="hero__slogan">Short info about us</h2>
-        <h1 class="hero__title">Get in touch with us</h1>
-      </div>
-      <div class="header__button">
-        <a href="#">Home > Blogs</a>
-      </div>
-    </header>
-    <main>
-      <div class="card">
-        <div class="card__image"></div>
-        <div class="card__content">
-          <div class="card__heading"><h2>Hand Made Ingredients</h2></div>
-          <div class="card__details"></div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sint
-            earum rem maiores aperiam atque obcaecati amet libero commodi velit
-            delectus nihil ut enim illum distinctio odio provident harum
-            voluptas veritatis impedit, sed eligendi? Aliquam tempora,
-            blanditiis nemo dolorum veniam velit dignissimos ipsum earum,
-            eveniet veritatis quam consequatur, sit iure!
-          </p>
-          <div class="card__button"><a href="#">Read More</a></div>
+      </header>
+      <main>
+        <div class="card">
+          <div class="card__image">
+            <img src="./Images/blog image.png" />
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading heading__primary">
+              Hand Made Ingredients
+            </h2>
+
+            <div class="card__details">
+              <i class="fas fa-calendar-alt"></i><span>9/7/2021</span>
+              <i class="fas fa-user"></i><span>Admin</span>
+              <i class="fas fa-comment"></i><span>5 Comments</span>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              sint earum rem maiores aperiam atque obcaecati amet libero commodi
+              velit delectus nihil ut enim illum distinctio odio provident harum
+              voluptas veritatis impedit, sed eligendi? Aliquam tempora,
+              blanditiis nemo dolorum veniam velit dignissimos ipsum earum,
+              eveniet veritatis quam consequatur, sit iure!
+            </p>
+            <div class="card__button btn-primary">
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
-    <footer></footer>
+        <div class="card">
+          <div class="card__image">
+            <img src="./Images/blog image.png" />
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading heading__primary">
+              Hand Made Ingredients
+            </h2>
+
+            <div class="card__details">
+              <i class="fas fa-calendar-alt"></i><span>9/7/2021</span>
+              <i class="fas fa-user"></i><span>Admin</span>
+              <i class="fas fa-comment"></i><span>5 Comments</span>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              sint earum rem maiores aperiam atque obcaecati amet libero commodi
+              velit delectus nihil ut enim illum distinctio odio provident harum
+              voluptas veritatis impedit, sed eligendi? Aliquam tempora,
+              blanditiis nemo dolorum veniam velit dignissimos ipsum earum,
+              eveniet veritatis quam consequatur, sit iure!
+            </p>
+            <div class="card__button btn-primary">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="./Images/blog image.png" />
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading heading__primary">
+              Hand Made Ingredients
+            </h2>
+
+            <div class="card__details">
+              <i class="fas fa-calendar-alt"></i><span>9/7/2021</span>
+              <i class="fas fa-user"></i><span>Admin</span>
+              <i class="fas fa-comment"></i><span>5 Comments</span>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              sint earum rem maiores aperiam atque obcaecati amet libero commodi
+              velit delectus nihil ut enim illum distinctio odio provident harum
+              voluptas veritatis impedit, sed eligendi? Aliquam tempora,
+              blanditiis nemo dolorum veniam velit dignissimos ipsum earum,
+              eveniet veritatis quam consequatur, sit iure!
+            </p>
+            <div class="card__button btn-primary">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image">
+            <img src="./Images/blog image.png" />
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading heading__primary">
+              Hand Made Ingredients
+            </h2>
+
+            <div class="card__details">
+              <i class="fas fa-calendar-alt"></i><span>9/7/2021</span>
+              <i class="fas fa-user"></i><span>Admin</span>
+              <i class="fas fa-comment"></i><span>5 Comments</span>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              sint earum rem maiores aperiam atque obcaecati amet libero commodi
+              velit delectus nihil ut enim illum distinctio odio provident harum
+              voluptas veritatis impedit, sed eligendi? Aliquam tempora,
+              blanditiis nemo dolorum veniam velit dignissimos ipsum earum,
+              eveniet veritatis quam consequatur, sit iure!
+            </p>
+            <div class="card__button btn-primary">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <!-- Footer Part 1 -->
+        <div class="opening_hours">
+          <h3 class="opening__title">Opening Hours</h3>
+          <div class="opening__days">
+            <div class="day">
+              <p>Sunday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Monday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Tuesday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Wednesday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Thursday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Friday</p>
+              <p>6am - 10pm</p>
+            </div>
+            <div class="day">
+              <p>Saturday</p>
+              <p>6am - 10pm</p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Part 2 -->
+        <div class="footer__contacts">
+          <div class="footer__contact-address footer__item">
+            <h2 class="heading__primary">Green Restaurant PVT.LTD.</h2>
+            <div class="footer__contact">
+              <i class="fas fa-map-marker-alt"></i
+              ><span>Samakhusi road, Gongabu, Kathmandu</span>
+            </div>
+            <div class="footer__contact">
+              <i class="fas fa-phone"></i><span>+977 9840059834</span>
+            </div>
+            <div class="footer__contact">
+              <i class="fas fa-envelope"></i><span>info@spyderslab.com</span>
+            </div>
+          </div>
+          <div class="footer__contact-social footer__item">
+            <h2 class="heading__primary">Follow Us</h2>
+            <div class="footer__contact">
+              <i class="fab fa-facebook-square"></i><span>Facebook</span>
+            </div>
+            <div class="footer__contact">
+              <i class="fab fa-instagram"></i><span>Instagram</span>
+            </div>
+            <div class="footer__contact">
+              <i class="fab fa-youtube"></i><span>Youtube</span>
+            </div>
+          </div>
+          <div class="footer__contact-email footer__item">
+            <h2 class="heading__primary">NewsLetter</h2>
+            <p>
+              We sent you latest offers and news at least <br />once a week.
+            </p>
+            <form action="" class="footer__form">
+              <input type="text" placeholder="Email address*" required />
+              <button class="subscribe__btn">Suscribe</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+      <p class="copyrights">
+        &copy; Copyright 2019 All Rights Reserved.
+        <span>Green Leaf Restro pro</span> by Lab theme. Powered by Wordpress
+      </p>
+    </div>
   </body>
 </html>
